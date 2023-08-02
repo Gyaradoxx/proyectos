@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+}
+
+.tarea-width {
+  width: 100%;
+  padding: 10px;
+}
+
+#div-form {
+  margin: 0 auto;
+  width: 35%;
+  margin-top: 100px;
+  height: 200px;
+}
+
+#descripcion {
+  height: 70px;
+}
+
+#fecha {
+  width: 35px;
+  cursor: pointer;
+}
+
+#iconos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+#colaboraFoto {
+  height: 37px;
+  cursor: pointer;
+}
+#prioridad {
+  margin-top: 7px;
+}
+#prioridadFoto {
+  height: 37px;
+
+  cursor: pointer;
+}
+.iconos-inside {
+  display: flex;
+}
+.iconos-inside2 {
+  display: flex;
+  margin-left: -160px;
+
+  
+}
+.iconos-inside3 {
+  display: flex;
+  
+
+ 
+}
+select{
+    position: absolute;
+}
+#prioridadFoto{
+    margin-left: -80px;
+}
+#enviar-boton {
+  display: flex;
+
+  justify-content: end;
+}
+
+#colaborador {
+  height: 40px;
+}
+
+select {
+  flex: 1;
+  margin-left: 5px;
+}
+
+option {
+  display: inline-block;
+  padding: 3px;
+}
+
+input[type="date"] {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(https://img1.freepng.es/20180403/lkq/kisspng-solar-calendar-symbol-computer-icons-encapsulated-calendar-icon-5ac41db82504c0.0773126515228021041516.jpg)
+    no-repeat;
+  background-size: contain;
+  border: none;
+  margin-right: -20px;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.chosen-choices {
+  width: 250px !important;
+  height: 40px !important;
+  display: flex !important;
+}
+
+.colaborador {
+  margin-right: 100px;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tareas {
+  border: 3px solid black;
+  height: 60vh;
+  width: 30%;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  width: 30%;
+  position: absolute;
+  top: 290px;
+  border-bottom: none;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#divFooter {
+  display: flex;
+  height: 30px;
+  
+}
+#divFooter > button {
+  margin-right: 4px;
+  padding: 3px;
+  cursor: pointer;
+  width: 20px;
+}
+
+#divFooter > button:nth-child(1) {
+  background-color: red;
+  border: none;
+}
+
+#divFooter > button:nth-child(2) {
+  background-color: rgb(61, 166, 34);
+  border: none;
+}
+.divTexto {
+  width: 100%;
+}
+
+.dragthing  {
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgb(197, 176, 203);
+  border: none;
+  
+}
+
+.dragthing div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  
+  }
+.divTextoBotones{
+  display: flex;
+  margin-bottom: 70px;
+}
+p {
+  padding: 3px;
+}
+
+span {
+  font-weight: bold;
+}
